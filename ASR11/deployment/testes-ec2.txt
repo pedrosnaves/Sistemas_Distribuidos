@@ -1,0 +1,16 @@
+test_bind_lookup_unbind (test_grpc.GrpcIntegrationTests.test_bind_lookup_unbind) ... ok
+test_calculator_all_operations_via_discovery (test_grpc.GrpcIntegrationTests.test_calculator_all_operations_via_discovery) ... ok
+test_calculator_rejects_invalid_and_overflow (test_grpc.GrpcIntegrationTests.test_calculator_rejects_invalid_and_overflow) ... ok
+test_client_looks_up_again_after_rebind (test_grpc.GrpcIntegrationTests.test_client_looks_up_again_after_rebind) ... ok
+test_concurrent_duplicate_bind_is_atomic (test_grpc.GrpcIntegrationTests.test_concurrent_duplicate_bind_is_atomic) ... ok
+test_duplicate_bind_does_not_replace (test_grpc.GrpcIntegrationTests.test_duplicate_bind_does_not_replace) ... ok
+test_missing_name_returns_not_found (test_grpc.GrpcIntegrationTests.test_missing_name_returns_not_found) ... ok
+test_rebind_updates_and_creates (test_grpc.GrpcIntegrationTests.test_rebind_updates_and_creates) ... ok
+test_sqlite_survives_registry_restart (test_grpc.GrpcIntegrationTests.test_sqlite_survives_registry_restart) ... ok
+test_unicode_and_empty_text (test_grpc.GrpcIntegrationTests.test_unicode_and_empty_text) ... ok
+test_validation (test_grpc.GrpcIntegrationTests.test_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.177s
+
+OK

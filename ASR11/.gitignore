@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+*.sqlite3*
+deployment/known_hosts
+dist/

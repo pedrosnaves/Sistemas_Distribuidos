@@ -1,0 +1,1 @@
+[{"IpProtocol": "tcp", "FromPort": 50061, "ToPort": 50063, "UserIdGroupPairs": [{"GroupId": "sg-0b3cb1ddb3bf9299a", "Description": "SD gRPC between lab instances only"}]}]

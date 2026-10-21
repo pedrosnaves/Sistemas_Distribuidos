@@ -1,0 +1,5 @@
+ip-172-31-64-70
+ActiveState=active
+SubState=running
+MainPID=27328
+LISTEN 0      4096   [::ffff:172.31.64.70]:50063       *:*

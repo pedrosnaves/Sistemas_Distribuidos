@@ -1,0 +1,5 @@
+ip-172-31-68-163
+ActiveState=active
+SubState=running
+MainPID=1716
+LISTEN 0      4096   [::ffff:172.31.68.163]:50062       *:*
