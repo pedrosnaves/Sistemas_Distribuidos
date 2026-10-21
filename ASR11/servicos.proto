@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+service ServicoNomes {
+  rpc Bind (Registro) returns (Vazio);
+  rpc Lookup (Nome) returns (Endereco);
+  rpc Unbind (Nome) returns (Vazio);
+  rpc Rebind (Registro) returns (Vazio);
+}
+
+message Registro {
+  string nome = 1;
+  string endereco = 2; // IP:porta do servidor
+}
+message Nome { string nome = 1; }
+message Endereco { string endereco = 1; }
+message Vazio {}
+
+service ServicoSoma {
+  rpc Somar (Numeros) returns (Resultado);
+}
+message Numeros {
+  double a = 1;
+  double b = 2;
+}
+message Resultado { double valor = 1; }
+
+service ServicoTexto {
+  rpc Maiusculas (Texto) returns (Texto);
+}
+message Texto { string texto = 1; }
