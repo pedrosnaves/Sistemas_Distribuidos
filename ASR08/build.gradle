@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'com.zeroc.slice-tools' version '3.8.3'
+}
+
+repositories { mavenCentral() }
+dependencies { implementation 'com.zeroc:ice:3.8.3' }
+
+sourceSets {
+    main {
+        java { srcDir '.'; exclude 'build/**' }
+        slice { srcDir '.'; include 'Printer.ice' }
+    }
+}
+
+tasks.register('copiarBibliotecas', Copy) {
+    from configurations.runtimeClasspath
+    into layout.buildDirectory.dir('libs')
+}
